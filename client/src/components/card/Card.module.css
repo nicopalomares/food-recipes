@@ -1,0 +1,62 @@
+
+.card_content {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: 20px;
+    border:solid 1px #FEB800;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.card_content:hover {
+    -webkit-transform: scale(1.05);
+}
+.card_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.card_img img {
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+
+}
+
+.card_text {
+    position: relative;
+     width: 50%; 
+    height: 100%; 
+    font-family: 'Poppins', sans-serif;
+    color: #656565;
+    /* overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis */
+}
+.card_text h4 {
+    list-style: none;
+   text-decoration: none;
+   color: #FEB800;
+}
+.card_text li {
+    list-style: none;
+}
+.diets {
+    /* position: absolute
+    top: 40px;
+    left: 50px; */
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis
+}
+
+
+
+.dietstit {
+    color: #ff8000;
+    margin: 0px;
+
+}

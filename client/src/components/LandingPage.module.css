@@ -1,0 +1,58 @@
+.LandinPage{
+    background: url(../img/Mask\ group.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-y: -140px;
+    display: flex;
+    align-items: center;
+    top: 20px;
+}
+.contein {
+    display: flex;
+    width: 50%;
+    height: 70%;
+    background-color: rgba(172, 40, 40, 0);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F3F3F3;
+}
+
+.title{
+
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+.boton {
+    display: flex;
+    background-color: #a7a7a7;
+    width: 7em;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #393030;
+
+}
+
+.text {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0);
+    text-align:start;
+    font-family: 'Inter', sans-serif;
+    line-height: 60%;
+}

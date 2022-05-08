@@ -1,0 +1,20 @@
+.NavBar {
+    background-color: #1B1B1B;
+    margin: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.titulo {
+    color:  #FEB800;
+    font-family: 'Poppins', sans-serif;
+}
+.link {
+    text-decoration: none;
+    color: #FEB800;
+}

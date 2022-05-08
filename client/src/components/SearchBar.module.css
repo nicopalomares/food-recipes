@@ -1,0 +1,32 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    
+}
+.input {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+    border-radius: 15px 0 0 15px;
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0; 
+    height:30px ;
+    width: 80px;
+    border: none;
+    outline: none;
+    background-color: #FEB800 ;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
